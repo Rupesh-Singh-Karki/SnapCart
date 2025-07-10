@@ -1,5 +1,4 @@
 import Stripe from "stripe";
-import { types } from "util";
 
 if (!process.env.STRIPE_SECRET_KEY) {
   throw new Error("STRIPE_SECRET_KEY is not defined");
